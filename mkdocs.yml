@@ -5,6 +5,7 @@ nav:
   - Education: education.md
 
 theme:
+  logo: "https://media.licdn.com/dms/image/D5603AQG84SDKTDUshA/profile-displayphoto-shrink_400_400/0/1674061214055?e=1685577600&v=beta&t=7gox50M7t8kQKbaVwh0ZAD9yYco2xN4i_eoxtDF1F8s"
   name: material
   features:
     - navigation.tabs
