@@ -1,0 +1,53 @@
+site_name: "Vasantha Lakshmi"
+site_url: "https://kvasantha.github.io"
+nav:
+  - Home: index.md
+  - Education: education.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
+  
+  palette: 
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4 
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  font:
+    text: Montserrat
+    code: Montserrat
+
+extra:
+  generator: false
+  social:
+  - icon: "fontawesome/brands/instagram"
+    link: "https://www.instagram.com/vasxntha_/"
+  - icon: "fontawesome/brands/github"
+    link: "https://github.com/kvasantha"
+  - icon: "fontawesome/brands/linkedin"
+    link: "https://www.linkedin.com/in/vasantha-k-368565250/"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
